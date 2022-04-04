@@ -1,6 +1,8 @@
 # Keyboardio Model 01 Firmware
 
-This is the source code for the default firmware for the Keyboardio Model 01, as shipped from the factory. 
+This is the source code for the my version of the firmware for the Keyboardio Model 01.
+
+Compared with the factory version, it enables some features aimed at reducing or eliminating chording.
 
 If you don't intend to customize your keyboard's firmware, you may want to consider using [Chrysalis](https://github.com/keyboardio/Chrysalis), our graphical configuration tool instead.
 
