@@ -6,26 +6,24 @@ Compared with the factory version, it enables some features aimed at reducing or
 
 I think the plugins I want for avoiding chording will be:
 
- * Ranges
- * OneShot
- * Escape-OneShot
- * KaleidoscopeLEDControl
- * LED-ActiveModColor
- * Autoshift --- I may want to add something to toggle this,
-       perhaps using the Any key; that is provided in the example
-       sketch for this plugin
+ * [Ranges](https://kaleidoscope.readthedocs.io/en/latest/plugins/Kaleidoscope-Ranges.html)
+ * [OneShot](https://kaleidoscope.readthedocs.io/en/latest/plugins/Kaleidoscope-OneShot.html)
+ * [Escape-OneShot](https://kaleidoscope.readthedocs.io/en/latest/plugins/Kaleidoscope-Escape-OneShot.html)
+ * [KaleidoscopeLEDControl](https://kaleidoscope.readthedocs.io/en/latest/plugins/Kaleidoscope-LEDControl.html)
+ * [LED-ActiveModColor](https://kaleidoscope.readthedocs.io/en/latest/plugins/Kaleidoscope-LED-ActiveModColor.html)
+ * [Autoshift](https://kaleidoscope.readthedocs.io/en/latest/plugins/Kaleidoscope-AutoShift.html) --- I may want to add something to toggle this, perhaps using the Any key; that is provided in the [example sketch](https://kaleidoscope.readthedocs.io/en/latest/examples/Keystrokes/AutoShift/AutoShift.ino.html) for this plugin
 
 and I may also add one or both of:
 
- * LED-Stalker
- * LED-Wavepool
+ * [LED-Stalker](https://kaleidoscope.readthedocs.io/en/latest/plugins/Kaleidoscope-LED-Stalker.html)
+ * [LED-Wavepool](https://kaleidoscope.readthedocs.io/en/latest/plugins/Kaleidoscope-LED-Wavepool.html)
 
 and, if I put both of those on, something to switch between them
 (using the LED key, or that and the Any key?).
 
 and perhaps:
 
- * TypingBreaks
+ * [TypingBreaks](https://kaleidoscope.readthedocs.io/en/latest/plugins/Kaleidoscope-TypingBreaks.html)
 
 # Build prerequisites
 
