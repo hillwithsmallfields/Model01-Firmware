@@ -1,8 +1,33 @@
 # Keyboardio Model 01 Firmware
 
-This is the source code for the my version of the firmware for the Keyboardio Model 01.
+This is the source code for my version of the firmware for the Keyboardio Model 01.
 
 Compared with the factory version, it enables some features aimed at reducing or eliminating chording.
+
+I think the plugins I want for avoiding chording will be:
+
+ * Ranges
+ * OneShot
+ * Escape-OneShot
+ * KaleidoscopeLEDControl
+ * LED-ActiveModColor
+ * Autoshift --- I may want to add something to toggle this,
+       perhaps using the Any key; that is provided in the example
+       sketch for this plugin
+
+and I may also add one or both of:
+
+ * LED-Stalker
+ * LED-Wavepool
+
+and, if I put both of those on, something to switch between them
+(using the LED key, or that and the Any key?).
+
+and perhaps:
+
+ * TypingBreaks
+
+# Build prerequisites
 
 If you don't intend to customize your keyboard's firmware, you may want to consider using [Chrysalis](https://github.com/keyboardio/Chrysalis), our graphical configuration tool instead.
 
@@ -11,10 +36,10 @@ To use or customize this firmware, you need to have Arduino and Kaleidoscope ins
 If you don't yet have Kaleidoscope and Arduino installed on your computer, [set them up now](https://kaleidoscope.readthedocs.io/en/latest/setup_toolchain.html)
 
 
-## Download the Model 01 Firmware
+## Download this version of the Model 01 Firmware
 
 ```sh
-git clone https://github.com/keyboardio/Model01-Firmware.git
+git clone https://github.com/hillwithsmallfields/Model01-Firmware.git
 ```
 
 # Build and flash the firmware
